@@ -1,0 +1,161 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+
+}
+
+/* Side bar */
+#sidebarMenu{
+  position:relative;
+  left:0;
+  top:50px;
+}
+#sidebarMenu{
+  position:absolute;
+  background-color: #2f3641;
+  width:16.5vw;
+  font-size:12px;
+}
+.nav-link{
+  color:white; 
+  
+}
+.nav-item{
+  margin-top:0;
+  height:9vh;
+}
+.nav-link:hover{
+  color: #595959;
+}
+.btn-close{
+  position:absolute;
+  left:85%;
+  top:1%;
+}
+.a:hover{
+  color:black;
+}
+
+/* Main content */
+.main{
+  border: 2px solid red;
+  position:relative;
+  left:17%;
+  margin-top:4.5%;
+  padding:10px;
+  width:75%;
+  height:fit-content;
+}
+h3{
+  font-weight:400;
+}
+.box-content{
+  font-weight:700;
+}
+/* content */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px); 
+  gap: 100px; 
+  margin:2%;
+}
+
+/* Style for each box */
+.box{
+  width: 17vw; 
+  height: 19vh; 
+  padding:15%; 
+  font-size:18px;
+  color: #fff; 
+  line-height: 10px;
+  border-radius:10px;
+  background:red;
+  position:relative;
+}
+#b1{
+  background-color:#F56954;
+}
+.users,.products,.warehouses,.stocks{
+  position: absolute;
+  top:10px;  
+  right: 10px;
+  width:50px;
+}
+.users:hover{
+  transition: .5s;   
+  transform: scale(1.2);
+}
+#b2{
+  background-color: #00A65A;
+}
+.products:hover{
+  transition: .5s;   
+  transform: scale(1.2);
+}
+#b3{
+  background-color: #00C0EF;
+}
+.warehouses:hover{
+  transition: .5s;   
+  transform: scale(1.2);
+}
+#b4{
+  background-color: #0073B7;
+}
+.stocks:hover{
+  transition: .5s;   
+  transform: scale(1.2);
+}
+.sub-content{
+  position:absolute;
+  bottom:0;
+  font-size: 13px;
+  padding:2%;
+  left:0;
+  opacity: 0.9;
+  text-align:center;
+  cursor:pointer;
+  border-radius:10px;
+  background-color: rgba(84, 74, 74, 0.383);
+  width:100%;
+}
+
+
+/* Tables */
+.table{
+ width:fit-content;
+ margin:2%;
+ width:45%;
+ border-radius:10px;
+}
+
+#rt{
+  position:relative;
+}
+#rtc{
+  position:absolute;
+  top:-280px;
+  right:10px;
+}
+.right-table{
+  position:relative;
+  right:0;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
