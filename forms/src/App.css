@@ -1,0 +1,112 @@
+.layout{
+  display:grid;
+  width:100%;
+  height:60vh;
+  
+}
+
+/* Content Header */
+.card{  
+  width: 84.8%;
+  margin-left: 15vw;
+  margin-top: 5vw;
+  border-radius:0;
+  position:;
+}
+.card-body{
+  background: #04AA6D;
+  height: 22vh;
+}
+.card-title{
+  font-weight:700;
+}
+
+
+/* Form content */
+.res-form{
+  position:relative;
+  padding: 5%;
+  width:80vw;
+  margin-left: 16.5vw;
+  margin-top: -5vh;
+  background:white;
+  height: 72%;
+}
+.form-box{
+  margin-top: -5vh;
+  margin-left: -4vw;
+  display:flex;
+  flex-wrap:wrap; 
+}
+.form-box > div {
+  margin-left:5vw;
+  height:60px;
+  width:100 px;
+  justify-content:space-between;
+}
+label{
+  font-weight: 500;
+}
+.form-control{
+  width: 25vw;
+  background-color:#E8E6E6;
+}
+#left-input{
+  float:left;
+}
+#right-input{
+  float:right;
+}
+.form-button{
+  padding: 5px;
+  width:10vw;
+  background: #04AA6D;
+  color:white;
+  border-radius:10px;
+  margin-top: 5vh;
+  opacity: 0.8;
+}
+.form-button:hover{
+  opacity:1.5;
+}
+
+@media (max-width:484px){
+  .res-form{
+    width: 80vw;
+  }
+  .form-box{
+    max-width:100%;
+    margin-top:2vh;
+  }
+  .form-box > div{
+    margin-bottom:15px;
+    width:100%;
+  }
+  .form-box input, select{
+    width:100%;
+  }
+  .form-box select{
+    width:100%;
+  }
+  .form-control  textarea{
+    width:100%;
+  }
+  
+  .form-button{
+    padding: 5px;
+    width:100%;
+    background: #04AA6D;
+    color:white;
+    border-radius:10px;
+    margin-top: 3vh;
+    opacity: 0.8;    
+  }
+}
+
+.nav-bar{
+  font-size:20px;
+  list-style:none;
+  display:flex;
+  gap:10px;  
+  justify-content: flex-end;
+}
