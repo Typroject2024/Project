@@ -5,6 +5,7 @@ import NavBar from "./Components/NavBar";
 import AddWarehouse from "./Components/AddWarehouse";
 import AddStock from "./Components/AddStock";
 import AddProduct from "./Components/AddProduct";
+import Notification from "./Components/Notification";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/AddWarehouse" element={<AddWarehouse />} />
           <Route path="/AddStock" element={<AddStock />} />
           <Route path="/AddProduct" element={<AddProduct />} />
+          <Route path="/Notification" element={<Notification />} />
         </Routes>
       </BrowserRouter>
     </>

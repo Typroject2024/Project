@@ -1,0 +1,17 @@
+body{
+    background:black;
+    color:white;
+}
+.container{
+    border: 1px solid white;
+    padding: 3%;
+}
+.main-box{
+    display: flex;
+    gap:1%;
+}
+.box{
+    border: 1px solid white;
+    padding: 3%;
+    width:50%;
+}

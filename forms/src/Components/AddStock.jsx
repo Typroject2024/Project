@@ -69,7 +69,7 @@ function AddStock() {
 
             <div className="mb-3">
               <label htmlFor="exampleFormControlInput1" className="form-label">
-                Suplier Name
+                Supplier Name
               </label>
               <input
                 type="text"

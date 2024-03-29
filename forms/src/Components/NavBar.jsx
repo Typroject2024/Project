@@ -16,6 +16,9 @@ function NavBar() {
         <li>
             <Link to="/AddProduct">Add Product</Link>
         </li>
+        <li>
+            <Link to="/Notification">Notification</Link>
+        </li>
       </div>
     </>
   );
