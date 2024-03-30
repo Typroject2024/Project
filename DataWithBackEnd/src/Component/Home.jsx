@@ -4,19 +4,18 @@ import List from "./List";
 import axios from "axios";
 
 function Home() {
-    const [userField, setUserField] = useState({
-      name: "",
-      email: "",
-      password: "",
+  const [userField, setUserField] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+  const changeUserFieldHandler = (e) => {
+    setUserField({
+      ...userField,
+      [e.target.name]: e.target.value,
     });
-    const changeUserFieldHandler = (e) => {
-      setUserField({
-        ...userField,
-        [e.target.name]: e.target.value,
-      });
-      console.log(userField);
+    console.log(userField);
   };
-
 
   const [loading, setLoading] = useState();
   const onSubmitChange = async (e) => {
