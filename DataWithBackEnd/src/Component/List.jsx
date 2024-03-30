@@ -23,6 +23,7 @@ function List() {
       <table border={1}>
         <thead>
           <tr>
+            <th>Sr. No.</th>
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
@@ -34,6 +35,7 @@ function List() {
             return (
               <tr key={i}>
                 <td> {i+1} </td>
+                <td> {user.id} </td>
                 <td> {user.name} </td>
                 <td> {user.email} </td>
                 <td> {user.password} </td>
