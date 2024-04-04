@@ -1,0 +1,68 @@
+/* Content Header */
+.card{  
+    width: 84.8%;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    border-radius:0;
+    position:relative;
+  }
+  .card-body{
+    background: #04AA6D;
+    height: 22vh;
+  }
+  .card-title{
+    font-weight:700;
+  }
+
+  .layout{
+    display:grid;
+    width:100%;
+    height:60vh;  
+  }
+
+  /* Form content */
+.res-form{
+    position:relative;
+    padding: 5%;
+    width:80vw;
+    margin-left: 16.5vw;
+    margin-top: -7vh;
+    background:white;
+    height: 72%;
+  }
+  .form-box{
+    margin-top: -7vh;
+    margin-left: -2vw;
+    display:flex;
+    gap:10px;
+  }
+  
+  .form-control{
+    width: 15vw;
+    background-color:#E8E6E6;
+  }
+  .form-button{
+    padding: 5px;
+    width:10vw;
+    background: #04AA6D;
+    color:white;
+    border-radius:10px;
+    margin-top: 5vh;
+    opacity: 0.8;
+  }
+  .form-button:hover{
+    opacity:1.5;
+  }
+  
+  .table{
+    font-size:15px;
+    margin-left:-1vw;
+    width:71.5vw;
+   }
+   .green-row{
+    background:red; 
+   }
+   .download{
+    display: flex;
+    justify-content: flex-end;
+   }

@@ -39,7 +39,6 @@ function Home() {
     <>
       <div className="container">
         <h1>Add user details</h1>
-
         <div className="main-box">
           <div className="box">
             <h2>Form</h2>
